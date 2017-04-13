@@ -1,0 +1,535 @@
+Geração 0. Melhor : 67790.000000 - Pior: 372276.000000 - Media: 320976.530000 (0.000000)
+Geração 1. Melhor : 67111.000000 - Pior: 366341.000000 - Media: 314227.100000 (0.000000)
+Geração 2. Melhor : 67111.000000 - Pior: 356372.000000 - Media: 309443.090000 (0.000000)
+Geração 3. Melhor : 67111.000000 - Pior: 382708.000000 - Media: 306366.316667 (0.000000)
+Geração 4. Melhor : 67111.000000 - Pior: 359365.000000 - Media: 302542.860000 (0.000000)
+Melhorou na combinação
+
+melhorou - profundidade 7
+
+melhorou - profundidade 6
+
+melhorou - profundidade 5
+Melhorou na combinação
+
+melhorou - profundidade 7
+
+melhorou - profundidade 6
+
+melhorou - profundidade 5
+
+melhorou - profundidade 4
+
+melhorou - profundidade 3
+
+melhorou - profundidade 6
+
+melhorou - profundidade 5
+
+melhorou - profundidade 4
+
+melhorou - profundidade 3
+Melhorou na combinação
+
+melhorou - profundidade 7
+
+melhorou - profundidade 6
+
+melhorou - profundidade 5
+
+melhorou - profundidade 4
+
+melhorou - profundidade 3
+
+melhorou - profundidade 2
+Melhorou na combinação
+
+melhorou - profundidade 7
+
+melhorou - profundidade 6
+
+melhorou - profundidade 5
+
+melhorou - profundidade 4
+
+melhorou - profundidade 3
+
+melhorou - profundidade 2
+
+melhorou - profundidade 1
+Geração 5. Melhor : 64639.000000 - Pior: 365381.000000 - Media: 298439.756667 (0.000000)
+Geração 6. Melhor : 61017.000000 - Pior: 351668.000000 - Media: 295645.846667 (0.000000)
+Geração 7. Melhor : 60899.000000 - Pior: 344426.000000 - Media: 292099.486667 (0.000000)
+Geração 8. Melhor : 60899.000000 - Pior: 347624.000000 - Media: 290491.390000 (0.000000)
+Geração 9. Melhor : 60899.000000 - Pior: 345995.000000 - Media: 287512.306667 (0.000000)
+Geração 10. Melhor : 60899.000000 - Pior: 344094.000000 - Media: 285059.670000 (0.000000)
+Geração 11. Melhor : 60899.000000 - Pior: 349337.000000 - Media: 281836.196667 (0.000000)
+
+melhorou - profundidade 7
+
+melhorou - profundidade 6
+
+melhorou - profundidade 5
+
+melhorou - profundidade 5
+
+melhorou - profundidade 4
+
+melhorou - profundidade 3
+
+melhorou - profundidade 2
+
+melhorou - profundidade 2
+
+melhorou - profundidade 1
+Geração 12. Melhor : 60064.000000 - Pior: 356468.000000 - Media: 279590.213333 (0.000000)
+
+melhorou - profundidade 8
+
+melhorou - profundidade 7
+
+melhorou - profundidade 6
+
+melhorou - profundidade 5
+
+melhorou - profundidade 4
+
+melhorou - profundidade 8
+
+melhorou - profundidade 7
+
+melhorou - profundidade 6
+
+melhorou - profundidade 5
+
+melhorou - profundidade 4
+
+melhorou - profundidade 3
+
+melhorou - profundidade 2
+
+melhorou - profundidade 1
+Geração 13. Melhor : 58936.000000 - Pior: 345533.000000 - Media: 276603.476667 (1.000000)
+Geração 14. Melhor : 58936.000000 - Pior: 363738.000000 - Media: 273994.476667 (1.000000)
+Geração 15. Melhor : 58936.000000 - Pior: 339973.000000 - Media: 270879.166667 (1.000000)
+Geração 16. Melhor : 58936.000000 - Pior: 335694.000000 - Media: 269191.376667 (1.000000)
+Geração 17. Melhor : 58936.000000 - Pior: 337735.000000 - Media: 264650.513333 (1.000000)
+Geração 18. Melhor : 58936.000000 - Pior: 351872.000000 - Media: 262444.420000 (1.000000)
+Geração 19. Melhor : 58936.000000 - Pior: 332176.000000 - Media: 259764.923333 (1.000000)
+Geração 20. Melhor : 58936.000000 - Pior: 343599.000000 - Media: 256319.650000 (1.000000)
+Geração 21. Melhor : 58936.000000 - Pior: 341409.000000 - Media: 252357.610000 (1.000000)
+Geração 22. Melhor : 58936.000000 - Pior: 357848.000000 - Media: 248395.740000 (1.000000)
+Geração 23. Melhor : 58936.000000 - Pior: 314143.000000 - Media: 244991.996667 (1.000000)
+Geração 24. Melhor : 58936.000000 - Pior: 314956.000000 - Media: 240488.453333 (1.000000)
+Geração 25. Melhor : 58936.000000 - Pior: 306638.000000 - Media: 238600.030000 (1.000000)
+Melhorou na combinação
+
+melhorou - profundidade 9
+
+melhorou - profundidade 8
+
+melhorou - profundidade 7
+
+melhorou - profundidade 6
+
+melhorou - profundidade 5
+
+melhorou - profundidade 4
+Melhorou na combinação
+
+melhorou - profundidade 8
+
+melhorou - profundidade 7
+
+melhorou - profundidade 6
+
+melhorou - profundidade 5
+
+melhorou - profundidade 4
+
+melhorou - profundidade 3
+
+melhorou - profundidade 2
+
+melhorou - profundidade 1
+
+melhorou - profundidade 1
+Geração 26. Melhor : 57765.000000 - Pior: 317126.000000 - Media: 233795.123333 (2.000000)
+Geração 27. Melhor : 57765.000000 - Pior: 302527.000000 - Media: 230394.686667 (2.000000)
+
+melhorou - profundidade 7
+
+melhorou - profundidade 6
+
+melhorou - profundidade 6
+
+melhorou - profundidade 5
+
+melhorou - profundidade 4
+
+melhorou - profundidade 3
+
+melhorou - profundidade 2
+
+melhorou - profundidade 1
+Geração 28. Melhor : 57566.000000 - Pior: 301387.000000 - Media: 225287.730000 (3.000000)
+Geração 29. Melhor : 57566.000000 - Pior: 301792.000000 - Media: 222417.090000 (3.000000)
+Geração 30. Melhor : 57566.000000 - Pior: 300737.000000 - Media: 220086.886667 (4.000000)
+
+melhorou - profundidade 8
+
+melhorou - profundidade 7
+
+melhorou - profundidade 6
+
+melhorou - profundidade 5
+
+melhorou - profundidade 4
+
+melhorou - profundidade 3
+
+melhorou - profundidade 2
+
+melhorou - profundidade 1
+Geração 31. Melhor : 57461.000000 - Pior: 317950.000000 - Media: 215241.466667 (4.000000)
+Geração 32. Melhor : 57461.000000 - Pior: 280940.000000 - Media: 214504.956667 (4.000000)
+Geração 33. Melhor : 57461.000000 - Pior: 281185.000000 - Media: 210418.523333 (5.000000)
+Geração 34. Melhor : 57461.000000 - Pior: 299374.000000 - Media: 206142.920000 (6.000000)
+Melhorou na combinação
+
+melhorou - profundidade 9
+
+melhorou - profundidade 8
+
+melhorou - profundidade 7
+
+melhorou - profundidade 6
+
+melhorou - profundidade 5
+
+melhorou - profundidade 4
+
+melhorou - profundidade 3
+
+melhorou - profundidade 2
+
+melhorou - profundidade 1
+Geração 35. Melhor : 57457.000000 - Pior: 265305.000000 - Media: 203949.143333 (7.000000)
+Geração 36. Melhor : 57457.000000 - Pior: 283638.000000 - Media: 201293.756667 (7.000000)
+Geração 37. Melhor : 57457.000000 - Pior: 269322.000000 - Media: 195525.930000 (9.000000)
+
+melhorou - profundidade 8
+
+melhorou - profundidade 7
+
+melhorou - profundidade 6
+
+melhorou - profundidade 5
+
+melhorou - profundidade 4
+
+melhorou - profundidade 3
+
+melhorou - profundidade 2
+Melhorou na combinação
+
+melhorou - profundidade 10
+
+melhorou - profundidade 9
+
+melhorou - profundidade 8
+
+melhorou - profundidade 7
+
+melhorou - profundidade 6
+
+melhorou - profundidade 5
+
+melhorou - profundidade 4
+
+melhorou - profundidade 3
+
+melhorou - profundidade 2
+
+melhorou - profundidade 1
+Geração 38. Melhor : 57343.000000 - Pior: 271160.000000 - Media: 197624.180000 (10.000000)
+Geração 39. Melhor : 57343.000000 - Pior: 286535.000000 - Media: 194233.160000 (11.000000)
+Geração 40. Melhor : 57343.000000 - Pior: 267325.000000 - Media: 193695.563333 (12.000000)
+Geração 41. Melhor : 57343.000000 - Pior: 256889.000000 - Media: 191582.900000 (13.000000)
+Geração 42. Melhor : 57343.000000 - Pior: 275021.000000 - Media: 191347.240000 (13.000000)
+Melhorou na combinação
+
+melhorou - profundidade 10
+
+melhorou - profundidade 9
+
+melhorou - profundidade 8
+
+melhorou - profundidade 7
+
+melhorou - profundidade 6
+
+melhorou - profundidade 5
+
+melhorou - profundidade 4
+
+melhorou - profundidade 3
+
+melhorou - profundidade 2
+
+melhorou - profundidade 1
+Geração 43. Melhor : 56949.000000 - Pior: 301171.000000 - Media: 191326.800000 (14.000000)
+Geração 44. Melhor : 56817.000000 - Pior: 271048.000000 - Media: 187427.710000 (14.000000)
+Geração 45. Melhor : 56817.000000 - Pior: 249241.000000 - Media: 185400.346667 (14.000000)
+Geração 46. Melhor : 56817.000000 - Pior: 259432.000000 - Media: 183181.146667 (15.000000)
+Geração 47. Melhor : 56817.000000 - Pior: 265508.000000 - Media: 185291.473333 (15.000000)
+Geração 48. Melhor : 56817.000000 - Pior: 274010.000000 - Media: 182347.280000 (17.000000)
+Geração 49. Melhor : 56817.000000 - Pior: 274715.000000 - Media: 182867.523333 (17.000000)
+Geração 50. Melhor : 56817.000000 - Pior: 244791.000000 - Media: 180686.720000 (18.000000)
+Geração 51. Melhor : 56817.000000 - Pior: 270347.000000 - Media: 180649.486667 (18.000000)
+Geração 52. Melhor : 56817.000000 - Pior: 251336.000000 - Media: 181187.576667 (18.000000)
+Geração 53. Melhor : 56817.000000 - Pior: 246368.000000 - Media: 177174.393333 (19.000000)
+Geração 54. Melhor : 56817.000000 - Pior: 237140.000000 - Media: 177016.080000 (19.000000)
+Geração 55. Melhor : 56817.000000 - Pior: 255189.000000 - Media: 174844.000000 (19.000000)
+Geração 56. Melhor : 56817.000000 - Pior: 258313.000000 - Media: 173648.350000 (20.000000)
+Geração 57. Melhor : 56817.000000 - Pior: 258929.000000 - Media: 171423.206667 (20.000000)
+Geração 58. Melhor : 56817.000000 - Pior: 235426.000000 - Media: 170314.106667 (20.000000)
+Geração 59. Melhor : 56817.000000 - Pior: 245280.000000 - Media: 168510.860000 (21.000000)
+Geração 60. Melhor : 56817.000000 - Pior: 226282.000000 - Media: 166031.176667 (23.000000)
+Geração 61. Melhor : 56817.000000 - Pior: 232095.000000 - Media: 166711.440000 (25.000000)
+Geração 62. Melhor : 56817.000000 - Pior: 239192.000000 - Media: 166500.550000 (25.000000)
+Melhorou na combinação
+
+melhorou - profundidade 10
+
+melhorou - profundidade 9
+
+melhorou - profundidade 8
+
+melhorou - profundidade 7
+
+melhorou - profundidade 6
+
+melhorou - profundidade 5
+
+melhorou - profundidade 4
+
+melhorou - profundidade 3
+
+melhorou - profundidade 2
+
+melhorou - profundidade 1
+Geração 63. Melhor : 56295.000000 - Pior: 247685.000000 - Media: 163580.556667 (27.000000)
+Geração 64. Melhor : 56295.000000 - Pior: 237264.000000 - Media: 161642.283333 (27.000000)
+Geração 65. Melhor : 56295.000000 - Pior: 237200.000000 - Media: 161893.366667 (29.000000)
+Geração 66. Melhor : 56295.000000 - Pior: 237493.000000 - Media: 160232.786667 (31.000000)
+Geração 67. Melhor : 56295.000000 - Pior: 225839.000000 - Media: 161845.133333 (31.000000)
+Geração 68. Melhor : 56295.000000 - Pior: 230218.000000 - Media: 160042.220000 (32.000000)
+Geração 69. Melhor : 56295.000000 - Pior: 223605.000000 - Media: 159505.483333 (34.000000)
+Geração 70. Melhor : 56295.000000 - Pior: 240284.000000 - Media: 160552.886667 (34.000000)
+Geração 71. Melhor : 56295.000000 - Pior: 229695.000000 - Media: 158977.766667 (36.000000)
+Geração 72. Melhor : 56295.000000 - Pior: 228725.000000 - Media: 158378.390000 (36.000000)
+Geração 73. Melhor : 56295.000000 - Pior: 222789.000000 - Media: 160320.960000 (36.000000)
+Geração 74. Melhor : 56295.000000 - Pior: 210845.000000 - Media: 156983.260000 (37.000000)
+Geração 75. Melhor : 56295.000000 - Pior: 207478.000000 - Media: 157648.623333 (37.000000)
+Geração 76. Melhor : 56295.000000 - Pior: 221876.000000 - Media: 156158.823333 (38.000000)
+Geração 77. Melhor : 56295.000000 - Pior: 201278.000000 - Media: 153999.476667 (38.000000)
+Geração 78. Melhor : 56295.000000 - Pior: 228700.000000 - Media: 155483.463333 (39.000000)
+Geração 79. Melhor : 56295.000000 - Pior: 218071.000000 - Media: 155271.373333 (40.000000)
+Geração 80. Melhor : 56295.000000 - Pior: 209494.000000 - Media: 154451.283333 (41.000000)
+Geração 81. Melhor : 56295.000000 - Pior: 215622.000000 - Media: 152633.480000 (41.000000)
+Geração 82. Melhor : 56295.000000 - Pior: 205818.000000 - Media: 151046.090000 (41.000000)
+Geração 83. Melhor : 56295.000000 - Pior: 220545.000000 - Media: 150606.226667 (43.000000)
+Geração 84. Melhor : 56295.000000 - Pior: 235787.000000 - Media: 151132.533333 (43.000000)
+Geração 85. Melhor : 56295.000000 - Pior: 206230.000000 - Media: 150040.453333 (44.000000)
+Geração 86. Melhor : 56295.000000 - Pior: 220088.000000 - Media: 151730.570000 (44.000000)
+Geração 87. Melhor : 56295.000000 - Pior: 240564.000000 - Media: 150730.580000 (44.000000)
+Geração 88. Melhor : 56295.000000 - Pior: 238056.000000 - Media: 150325.383333 (45.000000)
+Geração 89. Melhor : 56295.000000 - Pior: 231046.000000 - Media: 148937.870000 (45.000000)
+Geração 90. Melhor : 56295.000000 - Pior: 243357.000000 - Media: 149165.723333 (46.000000)
+Geração 91. Melhor : 56295.000000 - Pior: 209073.000000 - Media: 147774.853333 (46.000000)
+Melhorou na combinação
+
+melhorou - profundidade 8
+
+melhorou - profundidade 7
+
+melhorou - profundidade 6
+
+melhorou - profundidade 5
+
+melhorou - profundidade 4
+
+melhorou - profundidade 3
+
+melhorou - profundidade 2
+
+melhorou - profundidade 1
+Geração 92. Melhor : 55911.000000 - Pior: 218711.000000 - Media: 146343.616667 (47.000000)
+Geração 93. Melhor : 55911.000000 - Pior: 221226.000000 - Media: 143732.876667 (49.000000)
+Geração 94. Melhor : 55911.000000 - Pior: 201492.000000 - Media: 145034.980000 (49.000000)
+Geração 95. Melhor : 55911.000000 - Pior: 211537.000000 - Media: 145425.656667 (51.000000)
+Geração 96. Melhor : 55911.000000 - Pior: 208823.000000 - Media: 144946.850000 (53.000000)
+Geração 97. Melhor : 55911.000000 - Pior: 203668.000000 - Media: 143140.663333 (54.000000)
+Melhorou na combinação
+
+melhorou - profundidade 9
+
+melhorou - profundidade 8
+
+melhorou - profundidade 7
+
+melhorou - profundidade 6
+
+melhorou - profundidade 5
+
+melhorou - profundidade 4
+
+melhorou - profundidade 3
+
+melhorou - profundidade 2
+
+melhorou - profundidade 1
+Geração 98. Melhor : 55890.000000 - Pior: 206815.000000 - Media: 142844.006667 (56.000000)
+Geração 99. Melhor : 55515.000000 - Pior: 205882.000000 - Media: 141501.000000 (58.000000)
+Geração 100. Melhor : 55515.000000 - Pior: 202810.000000 - Media: 141956.720000 (59.000000)
+Geração 101. Melhor : 55515.000000 - Pior: 213954.000000 - Media: 138489.050000 (62.000000)
+Geração 102. Melhor : 55515.000000 - Pior: 194246.000000 - Media: 140927.770000 (63.000000)
+Geração 103. Melhor : 55515.000000 - Pior: 208682.000000 - Media: 141052.760000 (64.000000)
+Geração 104. Melhor : 55515.000000 - Pior: 211373.000000 - Media: 137983.920000 (66.000000)
+Geração 105. Melhor : 55515.000000 - Pior: 192578.000000 - Media: 138683.700000 (68.000000)
+Geração 106. Melhor : 55515.000000 - Pior: 198548.000000 - Media: 137595.403333 (72.000000)
+Geração 107. Melhor : 55515.000000 - Pior: 187008.000000 - Media: 137384.013333 (74.000000)
+Geração 108. Melhor : 55515.000000 - Pior: 188115.000000 - Media: 137414.610000 (75.000000)
+Geração 109. Melhor : 55515.000000 - Pior: 183549.000000 - Media: 136658.786667 (75.000000)
+Geração 110. Melhor : 55515.000000 - Pior: 194318.000000 - Media: 136912.763333 (76.000000)
+Geração 111. Melhor : 55515.000000 - Pior: 194098.000000 - Media: 134167.693333 (79.000000)
+Geração 112. Melhor : 55515.000000 - Pior: 188759.000000 - Media: 135435.960000 (82.000000)
+Geração 113. Melhor : 55515.000000 - Pior: 191568.000000 - Media: 135919.403333 (83.000000)
+Geração 114. Melhor : 55515.000000 - Pior: 189125.000000 - Media: 135196.060000 (85.000000)
+Geração 115. Melhor : 55515.000000 - Pior: 199511.000000 - Media: 135594.466667 (87.000000)
+Geração 116. Melhor : 55515.000000 - Pior: 207739.000000 - Media: 136675.123333 (88.000000)
+Geração 117. Melhor : 55515.000000 - Pior: 211038.000000 - Media: 135687.863333 (89.000000)
+Geração 118. Melhor : 55515.000000 - Pior: 202759.000000 - Media: 135553.266667 (90.000000)
+Geração 119. Melhor : 55515.000000 - Pior: 215696.000000 - Media: 134906.640000 (91.000000)
+Geração 120. Melhor : 55515.000000 - Pior: 196504.000000 - Media: 135454.776667 (92.000000)
+Geração 121. Melhor : 55515.000000 - Pior: 193918.000000 - Media: 135098.410000 (94.000000)
+Geração 122. Melhor : 55515.000000 - Pior: 196147.000000 - Media: 134797.390000 (95.000000)
+Geração 123. Melhor : 55515.000000 - Pior: 188543.000000 - Media: 134759.350000 (96.000000)
+Geração 124. Melhor : 55515.000000 - Pior: 196296.000000 - Media: 134778.713333 (96.000000)
+Geração 125. Melhor : 55515.000000 - Pior: 177974.000000 - Media: 133646.670000 (97.000000)
+Geração 126. Melhor : 55515.000000 - Pior: 194808.000000 - Media: 132889.123333 (98.000000)
+Geração 127. Melhor : 55515.000000 - Pior: 203338.000000 - Media: 133609.500000 (99.000000)
+Geração 128. Melhor : 55515.000000 - Pior: 198191.000000 - Media: 133306.303333 (100.000000)
+Geração 129. Melhor : 55515.000000 - Pior: 196241.000000 - Media: 132774.766667 (102.000000)
+Geração 130. Melhor : 55515.000000 - Pior: 193537.000000 - Media: 131762.286667 (102.000000)
+Geração 131. Melhor : 55515.000000 - Pior: 185880.000000 - Media: 132133.483333 (102.000000)
+Geração 132. Melhor : 55515.000000 - Pior: 180963.000000 - Media: 131007.560000 (104.000000)
+Geração 133. Melhor : 55515.000000 - Pior: 192533.000000 - Media: 130766.483333 (105.000000)
+Geração 134. Melhor : 55515.000000 - Pior: 177668.000000 - Media: 130074.190000 (106.000000)
+Geração 135. Melhor : 55515.000000 - Pior: 187943.000000 - Media: 129845.700000 (107.000000)
+Geração 136. Melhor : 55515.000000 - Pior: 193759.000000 - Media: 129449.406667 (108.000000)
+Geração 137. Melhor : 55515.000000 - Pior: 182918.000000 - Media: 129401.416667 (109.000000)
+Geração 138. Melhor : 55515.000000 - Pior: 182642.000000 - Media: 129318.173333 (110.000000)
+Geração 139. Melhor : 55515.000000 - Pior: 182762.000000 - Media: 129556.110000 (112.000000)
+Geração 140. Melhor : 55515.000000 - Pior: 174971.000000 - Media: 127760.430000 (115.000000)
+Geração 141. Melhor : 55515.000000 - Pior: 181710.000000 - Media: 128467.016667 (116.000000)
+Geração 142. Melhor : 55515.000000 - Pior: 196313.000000 - Media: 129086.796667 (116.000000)
+Geração 143. Melhor : 55515.000000 - Pior: 208199.000000 - Media: 128696.360000 (117.000000)
+Geração 144. Melhor : 55515.000000 - Pior: 193802.000000 - Media: 127215.063333 (118.000000)
+Geração 145. Melhor : 55515.000000 - Pior: 190614.000000 - Media: 127591.906667 (118.000000)
+Geração 146. Melhor : 55515.000000 - Pior: 186120.000000 - Media: 126092.846667 (119.000000)
+Geração 147. Melhor : 55515.000000 - Pior: 184014.000000 - Media: 124580.570000 (121.000000)
+Geração 148. Melhor : 55515.000000 - Pior: 177248.000000 - Media: 125275.640000 (123.000000)
+Geração 149. Melhor : 55515.000000 - Pior: 187278.000000 - Media: 127609.260000 (123.000000)
+Geração 150. Melhor : 55515.000000 - Pior: 187996.000000 - Media: 125911.193333 (123.000000)
+Geração 151. Melhor : 55515.000000 - Pior: 193392.000000 - Media: 125745.886667 (125.000000)
+Geração 152. Melhor : 55515.000000 - Pior: 186839.000000 - Media: 125685.416667 (126.000000)
+Geração 153. Melhor : 55515.000000 - Pior: 175928.000000 - Media: 123500.146667 (127.000000)
+Geração 154. Melhor : 55515.000000 - Pior: 167902.000000 - Media: 122785.820000 (129.000000)
+Geração 155. Melhor : 55515.000000 - Pior: 176541.000000 - Media: 122599.086667 (130.000000)
+Geração 156. Melhor : 55515.000000 - Pior: 163792.000000 - Media: 122784.670000 (130.000000)
+Geração 157. Melhor : 55515.000000 - Pior: 179977.000000 - Media: 124412.976667 (131.000000)
+Geração 158. Melhor : 55515.000000 - Pior: 182207.000000 - Media: 122894.903333 (132.000000)
+Geração 159. Melhor : 55515.000000 - Pior: 174415.000000 - Media: 123624.476667 (132.000000)
+Geração 160. Melhor : 55515.000000 - Pior: 169101.000000 - Media: 122233.513333 (134.000000)
+Geração 161. Melhor : 55515.000000 - Pior: 170840.000000 - Media: 120494.613333 (136.000000)
+Geração 162. Melhor : 55515.000000 - Pior: 176257.000000 - Media: 122198.486667 (137.000000)
+Geração 163. Melhor : 55515.000000 - Pior: 177724.000000 - Media: 120635.300000 (140.000000)
+Geração 164. Melhor : 55515.000000 - Pior: 177000.000000 - Media: 121957.933333 (141.000000)
+Geração 165. Melhor : 55515.000000 - Pior: 178518.000000 - Media: 119254.490000 (143.000000)
+Geração 166. Melhor : 55515.000000 - Pior: 179403.000000 - Media: 119706.986667 (145.000000)
+Geração 167. Melhor : 55515.000000 - Pior: 180181.000000 - Media: 118722.866667 (147.000000)
+Geração 168. Melhor : 55515.000000 - Pior: 169341.000000 - Media: 118265.593333 (148.000000)
+Geração 169. Melhor : 55515.000000 - Pior: 189192.000000 - Media: 119091.236667 (150.000000)
+Geração 170. Melhor : 55515.000000 - Pior: 188233.000000 - Media: 119961.383333 (151.000000)
+Geração 171. Melhor : 55515.000000 - Pior: 169812.000000 - Media: 119026.193333 (151.000000)
+Geração 172. Melhor : 55515.000000 - Pior: 178512.000000 - Media: 120033.450000 (153.000000)
+Geração 173. Melhor : 55515.000000 - Pior: 171797.000000 - Media: 118888.716667 (154.000000)
+Geração 174. Melhor : 55515.000000 - Pior: 176347.000000 - Media: 119466.090000 (155.000000)
+Geração 175. Melhor : 55515.000000 - Pior: 171441.000000 - Media: 118537.736667 (155.000000)
+Geração 176. Melhor : 55515.000000 - Pior: 169029.000000 - Media: 117631.103333 (156.000000)
+Geração 177. Melhor : 55515.000000 - Pior: 163141.000000 - Media: 117546.676667 (156.000000)
+Geração 178. Melhor : 55515.000000 - Pior: 186401.000000 - Media: 116729.956667 (158.000000)
+Geração 179. Melhor : 55515.000000 - Pior: 152757.000000 - Media: 117597.826667 (158.000000)
+Geração 180. Melhor : 55515.000000 - Pior: 149172.000000 - Media: 117287.306667 (158.000000)
+Geração 181. Melhor : 55515.000000 - Pior: 172724.000000 - Media: 116704.400000 (160.000000)
+Geração 182. Melhor : 55515.000000 - Pior: 156173.000000 - Media: 116516.440000 (160.000000)
+Geração 183. Melhor : 55515.000000 - Pior: 164573.000000 - Media: 116214.953333 (161.000000)
+Geração 184. Melhor : 55515.000000 - Pior: 165739.000000 - Media: 115540.500000 (162.000000)
+Geração 185. Melhor : 55515.000000 - Pior: 167219.000000 - Media: 117228.513333 (162.000000)
+Geração 186. Melhor : 55515.000000 - Pior: 164674.000000 - Media: 116518.486667 (164.000000)
+Geração 187. Melhor : 55515.000000 - Pior: 179083.000000 - Media: 115579.500000 (165.000000)
+Geração 188. Melhor : 55515.000000 - Pior: 177097.000000 - Media: 114904.870000 (167.000000)
+Geração 189. Melhor : 55515.000000 - Pior: 173067.000000 - Media: 114942.436667 (168.000000)
+Geração 190. Melhor : 55515.000000 - Pior: 172774.000000 - Media: 114838.363333 (169.000000)
+Geração 191. Melhor : 55515.000000 - Pior: 167347.000000 - Media: 115407.700000 (169.000000)
+Geração 192. Melhor : 55515.000000 - Pior: 158540.000000 - Media: 114255.450000 (169.000000)
+Geração 193. Melhor : 55515.000000 - Pior: 161519.000000 - Media: 113279.163333 (169.000000)
+Geração 194. Melhor : 55515.000000 - Pior: 163162.000000 - Media: 112588.716667 (170.000000)
+Geração 195. Melhor : 55515.000000 - Pior: 147448.000000 - Media: 112094.696667 (170.000000)
+Geração 196. Melhor : 55515.000000 - Pior: 151154.000000 - Media: 111869.706667 (171.000000)
+
+melhorou - profundidade 8
+
+melhorou - profundidade 7
+
+melhorou - profundidade 6
+
+melhorou - profundidade 5
+
+melhorou - profundidade 4
+
+melhorou - profundidade 3
+
+melhorou - profundidade 2
+
+melhorou - profundidade 1
+Geração 197. Melhor : 55461.000000 - Pior: 160804.000000 - Media: 110191.486667 (173.000000)
+Geração 198. Melhor : 55461.000000 - Pior: 163210.000000 - Media: 111831.526667 (174.000000)
+
+melhorou - profundidade 5
+
+melhorou - profundidade 4
+
+melhorou - profundidade 3
+
+melhorou - profundidade 2
+
+melhorou - profundidade 1
+Geração 199. Melhor : 55312.000000 - Pior: 158446.000000 - Media: 111333.623333 (175.000000)
+0 - 28 - 1 - 2 - 3 - 4 - 5 - 6 - 7 - 8 - 9 - 11 - 12 - 13 - 14 - 15 - 16 - 19 - 17 - 18 - 20 - 24 - 23 - 22 - 21 - 25 - 27 - 26 - 64 - 95 - 93 - 94 - 92 - 91 - 76 - 75 - 67 - 66 - 65 - 63 - 62 - 61 - 60 - 59 - 58 - 70 - 71 - 72 - 74 - 73 - 77 - 87 - 88 - 89 - 86 - 85 - 84 - 83 - 81 - 80 - 82 - 90 - 79 - 78 - 69 - 68 - 56 - 55 - 57 - 53 - 47 - 46 - 45 - 49 - 51 - 52 - 54 - 50 - 48 - 42 - 41 - 40 - 39 - 38 - 43 - 44 - 10 - 32 - 33 - 34 - 37 - 36 - 35 - 31 - 30 - 29 (55312.000000)
+Temmpo de execução 175.000000
+1 - 29 - 2 - 3 - 4 - 5 - 6 - 7 - 8 - 9 - 10 - 12 - 13 - 14 - 15 - 16 - 17 - 20 - 18 - 19 - 21 - 25 - 24 - 23 - 22 - 26 - 28 - 27 - 65 - 96 - 94 - 95 - 93 - 92 - 77 - 76 - 68 - 67 - 66 - 64 - 63 - 62 - 61 - 60 - 59 - 71 - 72 - 73 - 75 - 74 - 78 - 88 - 89 - 90 - 87 - 86 - 85 - 84 - 82 - 81 - 83 - 91 - 80 - 79 - 70 - 69 - 57 - 56 - 58 - 54 - 48 - 47 - 46 - 50 - 52 - 53 - 55 - 51 - 49 - 43 - 42 - 41 - 40 - 39 - 44 - 45 - 11 - 33 - 34 - 35 - 38 - 37 - 36 - 32 - 31 - 30 (55312.000000)
+
+
+1: 1 - 29 - 2 - 3 - 4 - 5 - 6 - 7 - 8 - 9 - 10 - 12 - 13 - 14 - 15 - 16 - 17 - 20 - 18 - 19 - 21 - 25 - 24 - 23 - 22 - 26 - 28 - 27 - 65 - 96 - 94 - 95 - 93 - 92 - 77 - 76 - 68 - 67 - 66 - 64 - 63 - 62 - 61 - 60 - 59 - 71 - 72 - 73 - 75 - 74 - 78 - 88 - 89 - 90 - 87 - 86 - 85 - 84 - 82 - 81 - 83 - 91 - 80 - 79 - 70 - 69 - 57 - 56 - 58 - 54 - 48 - 47 - 46 - 53 - 55 - 51 - 52 - 50 - 49 - 43 - 42 - 41 - 40 - 39 - 44 - 45 - 11 - 33 - 34 - 35 - 38 - 37 - 36 - 32 - 31 - 30 (55461.000000)
+
+
+2: 1 - 29 - 2 - 3 - 4 - 5 - 6 - 7 - 8 - 9 - 10 - 12 - 13 - 14 - 15 - 16 - 17 - 20 - 18 - 19 - 21 - 25 - 24 - 23 - 22 - 26 - 28 - 27 - 65 - 96 - 94 - 95 - 93 - 92 - 77 - 76 - 68 - 67 - 66 - 64 - 63 - 62 - 61 - 60 - 59 - 71 - 72 - 73 - 75 - 74 - 78 - 88 - 89 - 90 - 87 - 86 - 85 - 84 - 82 - 81 - 83 - 91 - 80 - 79 - 70 - 69 - 57 - 56 - 58 - 54 - 48 - 47 - 46 - 53 - 55 - 51 - 52 - 50 - 49 - 43 - 42 - 41 - 40 - 39 - 44 - 45 - 11 - 33 - 34 - 35 - 38 - 37 - 36 - 32 - 31 - 30 (55461.000000)
+
+
+3: 1 - 29 - 2 - 3 - 4 - 5 - 6 - 7 - 8 - 9 - 10 - 12 - 13 - 14 - 15 - 16 - 17 - 20 - 18 - 19 - 21 - 25 - 24 - 23 - 22 - 26 - 28 - 27 - 65 - 96 - 94 - 95 - 93 - 92 - 77 - 76 - 68 - 67 - 66 - 64 - 63 - 62 - 61 - 60 - 59 - 71 - 72 - 73 - 75 - 74 - 78 - 88 - 89 - 90 - 87 - 86 - 85 - 84 - 82 - 81 - 83 - 91 - 80 - 79 - 70 - 69 - 57 - 56 - 58 - 54 - 48 - 47 - 46 - 53 - 55 - 51 - 52 - 50 - 49 - 43 - 42 - 41 - 40 - 39 - 44 - 45 - 11 - 33 - 34 - 35 - 38 - 37 - 36 - 32 - 31 - 30 (55461.000000)
+
+
+ pior: 1 - 10 - 13 - 14 - 15 - 16 - 20 - 19 - 22 - 26 - 28 - 27 - 23 - 24 - 25 - 46 - 96 - 92 - 93 - 64 - 66 - 67 - 68 - 62 - 61 - 59 - 71 - 72 - 77 - 75 - 73 - 83 - 80 - 70 - 45 - 11 - 40 - 42 - 49 - 6 - 8 - 17 - 21 - 44 - 18 - 48 - 43 - 47 - 33 - 34 - 32 - 31 - 30 - 29 - 2 - 5 - 81 - 82 - 3 - 74 - 76 - 90 - 84 - 85 - 86 - 91 - 88 - 95 - 94 - 89 - 79 - 69 - 87 - 78 - 51 - 52 - 50 - 4 - 7 - 12 - 35 - 36 - 37 - 38 - 39 - 41 - 53 - 65 - 9 - 55 - 56 - 57 - 58 - 54 - 60 - 63 (158446.000000)
