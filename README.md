@@ -95,7 +95,7 @@ exemplo de arquivos a serem criados são:
 * profundidadeMaxima - profundidade máxima na recursivdade;
 
 # exemplo de arquivo de configuração
-
+```
 \<?xml version="1.0" encoding="UTF-8" standalone="no" ?\>
 \<configuracaoTSP\>
 
@@ -136,3 +136,4 @@ exemplo de arquivos a serem criados são:
   \<profundidadeMaxima\>10\</profundidadeMaxima\>
   
 \</configuracaoTSP\>
+```
