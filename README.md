@@ -32,10 +32,10 @@ exemplo de arquivos a serem criados são:
 # parametros de configuração (arquivo XML)
 
                        
- integer - tamanho em digitos do inteiro;
-
- printParcial - 1 imprime resultados parciais na tela,
-                0 desativa  impressão;
+ * integer - tamanho em digitos do inteiro;
+ * printParcial
+      - 1 imprime resultados parciais na tela,
+      - 0 desativa  impressão;
                 
 tamanhoPopulacao - tamanho da população;
 
