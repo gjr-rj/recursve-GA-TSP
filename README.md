@@ -105,8 +105,8 @@ profundidadeMaxima - profundidade máxima na recursivdade;
 
   \<integer>\15\</integer\>
 
-  \<printParcial\>1\</printParcial\>
-  \<tamanhoPopulacao\>300\</tamanhoPopulacao\>
+  \<printParcial\>1\</printParcial\>\n
+  \<tamanhoPopulacao\>300\</tamanhoPopulacao\>\n
   \<numGeracoes\>200\</numGeracoes\>
   \<percentManipulacao\>30\</percentManipulacao\>
   \<percentMutacao\>1\</percentMutacao\>
@@ -117,6 +117,6 @@ profundidadeMaxima - profundidade máxima na recursivdade;
   \<numExec\>1\</numExec\>
   \<roleta\>0\</roleta\>
   \<percentElitismo\>70\</percentElitismo\>
-  \<percentMutacaoRecursiva>\20\</percentMutacaoRecursiva\>
+  \<percentMutacaoRecursiva\>20\</percentMutacaoRecursiva\>
   \<profundidadeMaxima\>10\</profundidadeMaxima\>
 \</configuracaoTSP\>
