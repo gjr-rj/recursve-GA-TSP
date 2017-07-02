@@ -19,18 +19,18 @@ files/gr96.xml - arquivo de instancia XML com 96 cidades
 
 files/tspconfig.xml - arquivo de confguração XML
 
-resultados/r-gr96 
-                    . inicio do nome do arquivo de saida a ser criado
-                    . exemplo de arquivos a serem criados são:
-                    r-gr96-0-2017-07-01-10-23-20.txt;
-                    r-gr96-1-2017-07-01-10-23-31.txt;
-                    r-gr96-2-2017-07-01-10-23-50.txt,
-                    
-                    onde :
-                       r-gr96 - parte do nome informado na execição;
-                       1, 2, 3 - resultados da primeira, segunda e terceira execução;
-                       2017-07-01 - data da execução;
-                       10-23-20, 10-23-31, 10-23-50 - hora, minuto e segundo de cada excução.
+resultados/r-gr96 -  inicio do nome do arquivo de saida a ser criado
+
+exemplo de arquivos a serem criados são:
+    r-gr96-0-2017-07-01-10-23-20.txt;
+    r-gr96-1-2017-07-01-10-23-31.txt;
+    r-gr96-2-2017-07-01-10-23-50.txt,
+                   
+    onde :
+      r-gr96 - parte do nome informado na execição;
+      1, 2, 3 - resultados da primeira, segunda e terceira execução;
+      2017-07-01 - data da execução;
+      10-23-20, 10-23-31, 10-23-50 - hora, minuto e segundo de cada excução.
                        
 # parametros de configuração (arquivo XML)
 
