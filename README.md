@@ -22,9 +22,9 @@ files/tspconfig.xml - arquivo de confguração XML
 resultados/r-gr96 -  inicio do nome do arquivo de saida a ser criado
 
 exemplo de arquivos a serem criados são:
-    ## r-gr96-0-2017-07-01-10-23-20.txt;
-    * r-gr96-1-2017-07-01-10-23-31.txt;
-    * r-gr96-2-2017-07-01-10-23-50.txt,
+    r-gr96-0-2017-07-01-10-23-20.txt;
+    r-gr96-1-2017-07-01-10-23-31.txt;
+    r-gr96-2-2017-07-01-10-23-50.txt,
                    
     onde :
       r-gr96 - parte do nome informado na execição;
@@ -94,29 +94,29 @@ profundidadeMaxima - profundidade máxima na recursivdade;
 
 # exemplo de arquivo de configuração
 
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<configuracaoTSP>
+\<?xml version="1.0" encoding="UTF-8" standalone="no" ?\>
+\<configuracaoTSP\>
 
-  <name>tspconfig</name>
+  \<name\>tspconfig\</name\>
 
-  <source>TSPLIB</source>
+  \<source\>TSPLIB\</source\>
 
-  <description>Configuração da programa de Algoritmo Genético</description>
+  \<description\>Configuração da programa de Algoritmo Genético\</description\>
 
-  <integer>15</integer>
+  \<integer>\15\</integer\>
 
-  <printParcial>1</printParcial>
-  <tamanhoPopulacao>300</tamanhoPopulacao>
-  <numGeracoes>200</numGeracoes>
-  <percentManipulacao>30</percentManipulacao>
-  <percentMutacao>1</percentMutacao>
-  <percentReducao>78</percentReducao>
-  <mutacao>6</mutacao>
-  <selIndMutacao>0</selIndMutacao>
-  <cruzamento>12</cruzamento>
-  <numExec>1</numExec>
-  <roleta>0</roleta>
-  <percentElitismo>70</percentElitismo>
-  <percentMutacaoRecursiva>20</percentMutacaoRecursiva>
-  <profundidadeMaxima>10</profundidadeMaxima>
-</configuracaoTSP>
+  \<printParcial\>1\</printParcial\>
+  \<tamanhoPopulacao\>300\</tamanhoPopulacao\>
+  \<numGeracoes\>200\</numGeracoes\>
+  \<percentManipulacao\>30\</percentManipulacao\>
+  \<percentMutacao\>1\</percentMutacao\>
+  \<percentReducao\>78\</percentReducao\>
+  \<mutacao\>6\</mutacao\>
+  \<selIndMutacao\>0\</selIndMutacao\>
+  \<cruzamento\>12\</cruzamento\>
+  \<numExec\>1\</numExec\>
+  \<roleta\>0\</roleta\>
+  \<percentElitismo\>70\</percentElitismo\>
+  \<percentMutacaoRecursiva>\20\</percentMutacaoRecursiva\>
+  \<profundidadeMaxima\>10\</profundidadeMaxima\>
+\</configuracaoTSP\>
