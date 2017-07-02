@@ -41,8 +41,11 @@ exemplo de arquivos a serem criados são:
                 0 desativa  impressão;
                 
 tamanhoPopulacao - tamanho da população;
+
 numGeracoes - número de gerações;
+
 percentMutacao - perentual de mutação;
+
 mutacao - 0 Exchange mutation (EM)
           1 2-opt,
           2 2-opt (2),
@@ -84,12 +87,16 @@ cruzamento - 0 GSTX,
              14 Edge Recombination Crossover (ER);
               
 numExec - quantidade de execuções (repetições)
+
 roleta - 0 desativa roleta,
          1 ativa roleta;
          
 percentElitismo - percentual de elitismo;
+
 percentMutacaoRecursiva - percentual de mutação recursiva;
+
 percentReducao - percentual de redução, na mutação recursiva;
+
 profundidadeMaxima - profundidade máxima na recursivdade;
 
 # exemplo de arquivo de configuração
@@ -105,18 +112,32 @@ profundidadeMaxima - profundidade máxima na recursivdade;
 
   \<integer>\15\</integer\>
 
-  \<printParcial\>1\</printParcial\>\n
-  \<tamanhoPopulacao\>300\</tamanhoPopulacao\>\n
+  \<printParcial\>1\</printParcial\>
+  
+  \<tamanhoPopulacao\>300\</tamanhoPopulacao\>
+  
   \<numGeracoes\>200\</numGeracoes\>
+  
   \<percentManipulacao\>30\</percentManipulacao\>
+  
   \<percentMutacao\>1\</percentMutacao\>
+  
   \<percentReducao\>78\</percentReducao\>
+  
   \<mutacao\>6\</mutacao\>
+  
   \<selIndMutacao\>0\</selIndMutacao\>
+  
   \<cruzamento\>12\</cruzamento\>
+  
   \<numExec\>1\</numExec\>
+  
   \<roleta\>0\</roleta\>
+  
   \<percentElitismo\>70\</percentElitismo\>
+  
   \<percentMutacaoRecursiva\>20\</percentMutacaoRecursiva\>
+  
   \<profundidadeMaxima\>10\</profundidadeMaxima\>
+  
 \</configuracaoTSP\>
