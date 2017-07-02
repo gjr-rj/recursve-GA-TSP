@@ -22,7 +22,7 @@ files/tspconfig.xml - arquivo de confguração XML
 resultados/r-gr96 -  inicio do nome do arquivo de saida a ser criado
 
 exemplo de arquivos a serem criados são:
-    * r-gr96-0-2017-07-01-10-23-20.txt;
+    ## r-gr96-0-2017-07-01-10-23-20.txt;
     * r-gr96-1-2017-07-01-10-23-31.txt;
     * r-gr96-2-2017-07-01-10-23-50.txt,
                    
