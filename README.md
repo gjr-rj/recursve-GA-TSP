@@ -1,5 +1,5 @@
 # recursve-GA-TSP
-Recursive Genetic Algorithm for TSP resolver (in C)
+Recursive Genetic Algorithm for TSP resolver (in C++)
 
 # compilação
 
@@ -58,36 +58,31 @@ exemplo de arquivos a serem criados são:
   - 15 Double Bridge move (DBM),
   - 16 TIPO3,
   - 17 TIPO4,
-  - 18 Neighbor-Join (NJ);
-          
+  - 18 Neighbor-Join (NJ);       
 * selIndMutacao 
-      - 0 o melhor indivíduo nunca sofrerá mutação,
-      - 1 o melhor indivíduo sempre sofrerá mutação,
-      - 2 a escolha do indivíduo para mutação é completamente aleatória;
-                
+  - 0 o melhor indivíduo nunca sofrerá mutação,
+  - 1 o melhor indivíduo sempre sofrerá mutação,
+  - 2 a escolha do indivíduo para mutação é completamente aleatória;                
 * cruzamento 
-      - 0 GSTX,
-      - 1 Partially-Mapped Crossover (PMX),
-      - 2 Order Crossover (OX1),
-      - 3 Order Based Crossover (OX2),
-      - 4 Modified Order Based Crossover (MOX),
-      - 5 Position Based Crossover (POS),
-      - 6 Cycle Crossover (CX),
-      - 7 Distance Preserving Crossover (DPX),
-      - 8 Alternating-position Crossover (AP),
-      - 9 Maximal preservative crossover (MPX),
-      - 10 Heuristic crossover (HX),
-      - 11 Inver-over operator (IO),
-      - 12 Modified Inver-over operator (MIO),
-      - 13 Voting Recombination Crossover (VR),
-      - 14 Edge Recombination Crossover (ER);
-              
+  - 0 GSTX,
+  - 1 Partially-Mapped Crossover (PMX),
+  - 2 Order Crossover (OX1),
+  - 3 Order Based Crossover (OX2),
+  - 4 Modified Order Based Crossover (MOX),
+  - 5 Position Based Crossover (POS),
+  - 6 Cycle Crossover (CX),
+  - 7 Distance Preserving Crossover (DPX),
+  - 8 Alternating-position Crossover (AP),
+  - 9 Maximal preservative crossover (MPX),
+  - 10 Heuristic crossover (HX),
+  - 11 Inver-over operator (IO),
+  - 12 Modified Inver-over operator (MIO),
+  - 13 Voting Recombination Crossover (VR),
+  - 14 Edge Recombination Crossover (ER);
 * numExec - quantidade de execuções (repetições)
-
 * roleta 
       - 0 desativa roleta,
       - 1 ativa roleta;
-         
 * percentElitismo - percentual de elitismo;
 * percentMutacaoRecursiva - percentual de mutação recursiva;
 * percentReducao - percentual de redução, na mutação recursiva;
