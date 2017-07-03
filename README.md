@@ -1,3 +1,6 @@
+# Projeto para estudo Estudos
+# MASI - PPGI - NCE - UFRJ
+
 # recursve-GA-TSP
 Recursive Genetic Algorithm for TSP resolver (in C++)
 
