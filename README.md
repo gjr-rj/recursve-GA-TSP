@@ -81,8 +81,8 @@ exemplo de arquivos a serem criados são:
   - 14 Edge Recombination Crossover (ER);
 * numExec - quantidade de execuções (repetições)
 * roleta 
-      - 0 desativa roleta,
-      - 1 ativa roleta;
+  - 0 desativa roleta,
+  - 1 ativa roleta;
 * percentElitismo - percentual de elitismo;
 * percentMutacaoRecursiva - percentual de mutação recursiva;
 * percentReducao - percentual de redução, na mutação recursiva;
