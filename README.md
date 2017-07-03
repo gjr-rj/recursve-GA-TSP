@@ -1,4 +1,4 @@
-# Projeto para estudo Estudos
+# Projeto para estudos
 # MASI - PPGI - NCE - UFRJ
 
 # recursve-GA-TSP
