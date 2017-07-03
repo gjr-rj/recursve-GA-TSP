@@ -35,31 +35,30 @@ exemplo de arquivos a serem criados são:
  * integer - tamanho em digitos do inteiro;
  * printParcial
       - 1 imprime resultados parciais na tela,
-      - 0 desativa  impressão;
-                
+      - 0 desativa  impressão;               
 * tamanhoPopulacao - tamanho da população;
 * numGeracoes - número de gerações;
 * percentMutacao - perentual de mutação;
-* mutacao 
-      - 0 Exchange mutation (EM)
-      - 1 2-opt,
-      - 2 2-opt (2),
-      - 3 Fast 3-opt,
-      - 4 3-opt,
-      - 5 Scramble mutation (SM),
-      - 6 Simple Inversion mutation (SIM),
-      - 7 Displacement mutation (DM),
-      - 8 Inversion mutation (IVM),
-      - 9 Inversion mutation (ISM),
-      - 10 Greedy-swap mutation (GSM),
-      - 11 Heuristic mutation (HM),
-      - 12 Greedy Sub Tour Mutation (GSTM),
-      - 13 DBM,
-      - 14 Self-adaptive Hybrid Mutation Operator (SHMO),
-      - 15 Double Bridge move (DBM),
-      - 16 TIPO3,
-      - 17 TIPO4,
-      - 18 Neighbor-Join (NJ);
+* mutacao
+         - 0 Exchange mutation (EM)
+         - 1 2-opt,
+         - 2 2-opt (2),
+         - 3 Fast 3-opt,
+         - 4 3-opt,
+         - 5 Scramble mutation (SM),
+         - 6 Simple Inversion mutation (SIM),
+         - 7 Displacement mutation (DM),
+         - 8 Inversion mutation (IVM),
+         - 9 Inversion mutation (ISM),
+         - 10 Greedy-swap mutation (GSM),
+         - 11 Heuristic mutation (HM),
+         - 12 Greedy Sub Tour Mutation (GSTM),
+         - 13 DBM,
+         - 14 Self-adaptive Hybrid Mutation Operator (SHMO),
+         - 15 Double Bridge move (DBM),
+         - 16 TIPO3,
+         - 17 TIPO4,
+         - 18 Neighbor-Join (NJ);
           
 * selIndMutacao 
       - 0 o melhor indivíduo nunca sofrerá mutação,
@@ -96,44 +95,29 @@ exemplo de arquivos a serem criados são:
 
 # exemplo de arquivo de configuração
 ```
-\<?xml version="1.0" encoding="UTF-8" standalone="no" ?\>
-\<configuracaoTSP\>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<configuracaoTSP>
 
-  \<name\>tspconfig\</name\>
+  <name>tspconfig</name>
 
-  \<source\>TSPLIB\</source\>
+  <source>TSPLIB</source>
 
-  \<description\>Configuração da programa de Algoritmo Genético\</description\>
+  <description>Configuração da programa de Algoritmo Genético</description>
 
-  \<integer>\15\</integer\>
+  <integer>15</integer>
 
-  \<printParcial\>1\</printParcial\>
-  
-  \<tamanhoPopulacao\>300\</tamanhoPopulacao\>
-  
-  \<numGeracoes\>200\</numGeracoes\>
-  
-  \<percentManipulacao\>30\</percentManipulacao\>
-  
-  \<percentMutacao\>1\</percentMutacao\>
-  
-  \<percentReducao\>78\</percentReducao\>
-  
-  \<mutacao\>6\</mutacao\>
-  
-  \<selIndMutacao\>0\</selIndMutacao\>
-  
-  \<cruzamento\>12\</cruzamento\>
-  
-  \<numExec\>1\</numExec\>
-  
-  \<roleta\>0\</roleta\>
-  
-  \<percentElitismo\>70\</percentElitismo\>
-  
-  \<percentMutacaoRecursiva\>20\</percentMutacaoRecursiva\>
-  
-  \<profundidadeMaxima\>10\</profundidadeMaxima\>
-  
-\</configuracaoTSP\>
-```
+  <printParcial>1</printParcial>
+  <tamanhoPopulacao>300</tamanhoPopulacao>
+  <numGeracoes>200</numGeracoes>
+  <percentManipulacao>30</percentManipulacao>
+  <percentMutacao>1</percentMutacao>
+  <percentReducao>78</percentReducao>
+  <mutacao>6</mutacao>
+  <selIndMutacao>0</selIndMutacao>
+  <cruzamento>12</cruzamento>
+  <numExec>1</numExec>
+  <roleta>0</roleta>
+  <percentElitismo>70</percentElitismo>
+  <percentMutacaoRecursiva>20</percentMutacaoRecursiva>
+  <profundidadeMaxima>10</profundidadeMaxima>
+</configuracaoTSP>```
