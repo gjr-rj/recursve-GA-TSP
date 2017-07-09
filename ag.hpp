@@ -15,6 +15,7 @@
 
 #include "mutacao.hpp"
 #include "cruzamento.hpp"
+#include "selecao.hpp"
 #include "tsp.hpp"
 #include "arqlog.hpp"
 #include "individuo.hpp"
@@ -38,12 +39,11 @@ class TAlgGenetico
       int VP_cruzamento;
       int VP_printParcial;
       int VP_percentElitismo;
-      int VP_roleta;
+      int VP_selecao;
       int VP_selIndMutacao;
       int VP_percentReducao;
       int VP_profundidadeMaxima;
       int VP_percentMutacaoRecursiva;
-
 
       double VP_melhor_dist;
 	   int VP_melhor_gera;
@@ -51,6 +51,10 @@ class TAlgGenetico
       TMapaGenes *VP_Mapa;
       TArqLog *VP_ArqSaida;
 
+		unsigned VP_Comb_Rec;
+      unsigned VP_Entr_Rec;
+		unsigned VP_Exec_Rec;
+		
    public:      
       TMutacao *mutacao;
       TCruzamento *cruzamento;
@@ -61,6 +65,10 @@ class TAlgGenetico
       double get_melhor_dst();
       int get_melhor_gera();
 	   int get_profundidade();
+		
+		unsigned getEntradaRec();
+		unsigned getExecRec();
+		unsigned getCombinaRec();
 
       //propriedades
       void setTamPopulacao (int val);
@@ -71,7 +79,7 @@ class TAlgGenetico
       void setMutacao (int val);
       void setCruzamento (int val);
       void setPercentElitismo (int val);
-      void setRoleta (int val);
+      void setSelecao (int val);
       void setSelIndMutacao (int val);
       void setPercentReducao (int val);
 	   void setProfundidadeMaxima(int val);
@@ -88,7 +96,7 @@ class TAlgGenetico
       int getMutacao ();
       int getCruzamento ();
       int getPercentElitismo ();
-      int getRoleta ();
+      int getSelecao ();
       int getSelIndMutacao ();
 
       void setTime (time_t sTime);
@@ -104,8 +112,6 @@ class TAlgGenetico
       void elitismo(TPopulacao *novaPop, TPopulacao *populacao);
       void geraDescendentes(TPopulacao *novaPop, TPopulacao *populacao, int geracao);
       void fazMutacao(TPopulacao *populacao);
-      int sorteiaPais(TPopulacao *populacao, int exceto);
-      int sorteiaPais(TPopulacao *populacao);
       void mutacaoAGRecursivo(TPopulacao *populacao, int indice);
 };
 

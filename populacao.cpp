@@ -17,6 +17,7 @@ TArqLog *TPopulacao::getArqLog()            { return VP_ArqSaida; }
 unsigned TPopulacao::get_tamanho()          { return VP_tamanho; }
 unsigned TPopulacao::get_qtdeIndividuo()    { return VP_individuos.size(); }
 double TPopulacao::get_soma_dist ()         { return VP_somaDistancias; }
+double TPopulacao::get_soma_distInv ()      { return VP_somaDistanciasInv; }
 
 //Métodos
 TIndividuo *TPopulacao::get_individuo(unsigned indice)
@@ -27,8 +28,16 @@ TIndividuo *TPopulacao::get_individuo(unsigned indice)
    return VP_individuos[indice];
 }
 
-void TPopulacao::sub_dist_tot (double val)  { VP_somaDistancias -= val; }
-void TPopulacao::soma_dist_tot (double val) { VP_somaDistancias += val; }
+void TPopulacao::sub_dist_tot (double val)  
+{ 
+	VP_somaDistancias -= val; 
+	VP_somaDistanciasInv -= 1/val;
+}
+void TPopulacao::soma_dist_tot (double val) 
+{ 
+	VP_somaDistancias += val; 
+	VP_somaDistanciasInv += 1/val;
+}
 
 void TPopulacao::add_individuo(TIndividuo *individuo)
 {
@@ -36,6 +45,7 @@ void TPopulacao::add_individuo(TIndividuo *individuo)
    {
       VP_individuos.push_back(individuo);
       VP_somaDistancias += individuo->get_distancia();
+		VP_somaDistanciasInv += individuo->get_distanciaInv();
    }
    else
 	   delete individuo;
@@ -55,6 +65,7 @@ TPopulacao::TPopulacao (int tamanho, TMapaGenes *mapa, TArqLog *arqSaida)
    VP_ArqSaida = arqSaida;
 
    VP_somaDistancias = 0;
+	VP_somaDistanciasInv = 0;
    VP_tamanho = tamanho;
 }
 
@@ -68,6 +79,7 @@ void TPopulacao::povoa()
       individuo->novo();
       individuo->embaralha();
       VP_somaDistancias += individuo->get_distancia();
+		VP_somaDistanciasInv += individuo->get_distanciaInv();
       VP_individuos.push_back(individuo);
    }
 }
@@ -87,6 +99,7 @@ void TPopulacao::povoa(vector<TTipoConversao> tabConv, int extraPadrao)
 	  if (i)  individuo->embaralha();
 	  
       VP_somaDistancias += individuo->get_distancia();
+		VP_somaDistanciasInv += individuo->get_distanciaInv();
       VP_individuos.push_back(individuo);
    }
 }

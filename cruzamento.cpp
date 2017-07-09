@@ -1147,6 +1147,57 @@ vector <TIndividuo *>TCruzamento::VR (TIndividuo *parceiro1, TIndividuo *parceir
 {
 	vector <TIndividuo *> filhos;
 	TIndividuo *filho1 = parceiro1->clona();
+	filho1->embaralha();
+
+	TSelecao *selecao = new TSelecao(VP_Mapa, VP_ArqSaida, TSelecao::tipoTorneioK);
+	unsigned p3 = selecao->processa(populacao);
+	unsigned p4 = selecao->processa(populacao);
+	delete selecao;
+
+	TIndividuo *parceiro3 = populacao->get_individuo (p3);
+	TIndividuo *parceiro4 = populacao->get_individuo (p4);
+
+   int qtdeIguais;
+	int idGene;
+	TGene *g;
+	for (int i=1; i < filho1->get_qtdeGenes(); i++)
+	{
+		//Verifica se a posição i tem o mesmo gene em pelo menos 3
+		// dos parceiros		
+		g = parceiro1->get_por_indice(i);
+		idGene = g->id;
+		qtdeIguais = 1;
+
+		g = parceiro2->get_por_indice(i);
+		if (g->id==idGene) qtdeIguais++;
+		
+		g = parceiro3->get_por_indice(i);
+		if (g->id==idGene) qtdeIguais++;
+		
+		g = parceiro4->get_por_indice(i);
+		if (g->id==idGene) qtdeIguais++;
+		
+		if (qtdeIguais<3) 
+		{
+			g = parceiro2->get_por_indice(i);
+			idGene = g->id;
+			qtdeIguais = 1;
+
+			g = parceiro3->get_por_indice(i);
+			if (g->id==idGene) qtdeIguais++;
+		
+			g = parceiro4->get_por_indice(i);
+			if (g->id==idGene) qtdeIguais++;			
+		}
+		
+		if (qtdeIguais>=3) 
+		{
+			//Se encontrei um gene na mesma posição em pelomenos 3
+			//parceiros, o filho, nesta posição, terá este gene
+			g = filho1->get_por_indice(i);
+			filho1->troca(g->id, idGene);
+		}
+	}
 
 	filhos.push_back(filho1);
 	return filhos;
@@ -1171,6 +1222,97 @@ vector <TIndividuo *>TCruzamento::ER (TIndividuo *parceiro1, TIndividuo *parceir
 {
 	vector <TIndividuo *> filhos;
 	TIndividuo *filho1 = parceiro1->clona();
+	
+	TGene *g;
+	TGene *gTemp;
+	TGene *gVizinho;
+	long custoTemp;
+	
+	int idMelhor;
+	long custoMelhor;
+	
+	for (int i = 0; i < filho1->get_qtdeGenes()-2; i++ )
+	{
+		g = filho1->get_por_indice(i);
+		
+		//Servirá como a parte aleatória a medida que as posições	
+		custoMelhor = VP_Mapa->get_distancia(g->ori, g->prox->dest);
+      idMelhor = g->prox->id;
+      
+		//########################
+		// Parceiro 1
+		//########################
+		//Pegando o mesmo gene no parcero 1
+		gTemp = parceiro1->get_por_id(g->id);
+		
+		//Verificando se o próximo já está no filho
+		//*****************************************
+		gVizinho = filho1->get_por_id(gTemp->prox->id);
+		if (gVizinho->i > i) //ainda não faz parte do filho
+		{
+			//Verifico o custo
+			custoTemp = VP_Mapa->get_distancia(g->ori, gVizinho->dest);
+			//Se tiver melhor custo, é um candidato a substituição
+			if(custoTemp < custoMelhor)
+			{
+				custoMelhor = custoTemp;
+				idMelhor = gVizinho->id;
+			}
+		}
+
+		//Verificando se o anterior já está no filho
+		//*******************************************
+		gVizinho = filho1->get_por_id(gTemp->ant->id);
+		if (gVizinho->i > i) //ainda não faz parte do filho
+		{
+			//Verifico o custo
+			custoTemp = VP_Mapa->get_distancia(g->ori, gVizinho->dest);
+			//Se tiver melhor custo, é um candidato a substituição
+			if(custoTemp < custoMelhor)
+			{
+				custoMelhor = custoTemp;
+				idMelhor = gVizinho->id;
+			}
+		}
+
+		//########################
+		// Parceiro 2
+		//########################
+		//Pegando o mesmo gene no parcero 2
+		gTemp = parceiro2->get_por_id(g->id);
+		
+		//Verificando se o próximo já está no filho
+		//*****************************************
+		gVizinho = filho1->get_por_id(gTemp->prox->id);
+		if (gVizinho->i > i) //ainda não faz parte do filho
+		{
+			//Verifico o custo
+			custoTemp = VP_Mapa->get_distancia(g->ori, gVizinho->dest);
+			//Se tiver melhor custo, é um candidato a substituição
+			if(custoTemp < custoMelhor)
+			{
+				custoMelhor = custoTemp;
+				idMelhor = gVizinho->id;
+			}
+		}
+
+		//Verificando se o anterior já está no filho
+		//*******************************************
+		gVizinho = filho1->get_por_id(gTemp->ant->id);
+		if (gVizinho->i > i) //ainda não faz parte do filho
+		{
+			//Verifico o custo
+			custoTemp = VP_Mapa->get_distancia(g->ori, gVizinho->dest);
+			//Se tiver melhor custo, é um candidato a substituição
+			if(custoTemp < custoMelhor)
+			{
+				custoMelhor = custoTemp;
+				idMelhor = gVizinho->id;
+			}
+		}
+
+	   filho1->troca (g->prox->id, idMelhor);		
+	}
 
 	filhos.push_back(filho1);
 	return filhos;

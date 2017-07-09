@@ -34,6 +34,7 @@ class TIndividuo
 
       int VP_qtdeGenes;
       double VP_dist;
+		double VP_distInv; // 1/VP_dist para roleta
 
       int VP_qtdeGeneAlloc;
 
@@ -70,6 +71,7 @@ class TIndividuo
       int get_qtdeGenes();
 
       double get_distancia ();
+		double get_distanciaInv ();
 
       //Cria um novo indivíduo
       void novo ();

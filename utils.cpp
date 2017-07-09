@@ -1,4 +1,5 @@
 #include "utils.hpp"
+#include <iostream>
 
 double TUtils::fatorialStirling (int n)
 {
@@ -20,12 +21,27 @@ double TUtils::fatorialStirling (int n)
 
 void TUtils::initRnd ()
 {
-   srand(time(NULL));	
+   srand(time(NULL));
 }
 
 int TUtils::rnd(unsigned low, unsigned high)
 {
    return rand() % (high-low+1) + low;
+}
+
+double TUtils::rndd(double low, double high)
+{
+	return rndd(low, high, 1000);
+}
+
+double TUtils::rndd(double low, double high, unsigned calibracao)
+{
+	//Gerando um número randomico entre 0 e VP_MaxrndD
+   unsigned r = rand() % calibracao;
+	
+	//Após achar um randomico entre 0 e VP_MaxrndD
+	//vou converter para a escala entre low e high
+	return ((((double)r)/calibracao)*(high-low))+low;
 }
 
 /**

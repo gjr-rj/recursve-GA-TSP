@@ -148,8 +148,8 @@ int main(int argc, char *argv[])
       cabecalho  += to_string(config->percentElitismo);
       cabecalho  += "\n";
 
-      cabecalho  += "Seleção para Cruzamento (Roleta);";
-      cabecalho  += to_string(config->roleta);
+      cabecalho  += "Seleção para Cruzamento;";
+      cabecalho  += to_string(config->selecao);
       cabecalho  += "\n";
 
       cabecalho  += "Forma de Seleção par Mutação;";
@@ -166,7 +166,7 @@ int main(int argc, char *argv[])
       ag->setPercentElitismo(config->percentElitismo);
       ag->setPercentMutacao(config->percentMutacao);
 	   ag->setProfundidadeMaxima(config->profundidadeMaxima);
-      ag->setRoleta(config->roleta);
+      ag->setSelecao(config->selecao);
       ag->setSelIndMutacao(config->selIndMutacao);
       ag->setPercentMutacaoRecursiva(config->percentMutacaoRecursiva);
       ag->setPercentReducao(config->percentReducao);

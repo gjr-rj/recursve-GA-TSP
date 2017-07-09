@@ -20,7 +20,8 @@ TArqLog *TIndividuo::getArqLog()  { return VP_ArqSaida; }
 int TIndividuo::get_extra ()         { return VP_Extra; }
 void TIndividuo::set_extra (int val) { VP_Extra = val; }
 
-double TIndividuo::get_distancia() { return VP_dist; }
+double TIndividuo::get_distancia()    { return VP_dist; }
+double TIndividuo::get_distanciaInv() { return VP_distInv; }
 
 TGene *TIndividuo::get_ini () { return VP_indice[0]; }
 TGene *TIndividuo::get_por_indice (int indice) { return VP_indice[indice]; }
@@ -44,6 +45,7 @@ TIndividuo::TIndividuo (TMapaGenes *mapa, TArqLog *arqSaida)
 
    VP_Extra = 0;
    VP_dist = 0;
+	VP_distInv = 0;
    VP_qtdeGeneAlloc = 0;
 }
 
@@ -86,6 +88,7 @@ void TIndividuo::novo ()
    VP_Extra = 0;
 
    VP_dist += VP_Mapa->get_distancia(VP_direto[VP_qtdeGenes-1]->ori, VP_direto[0]->dest);
+	VP_distInv = 1/VP_dist;
 }
 
 void TIndividuo::novo (vector<TTipoConversao> genes, int extraPadrao)
@@ -120,6 +123,7 @@ void TIndividuo::novo (vector<TTipoConversao> genes, int extraPadrao)
    VP_Extra = extraPadrao;
 
    VP_dist += VP_Mapa->get_distancia(VP_indice[VP_qtdeGenes-1]->ori, VP_indice[0]->dest);	
+	VP_distInv = 1/VP_dist;
 }
 
 //Cria um novo indivíduo de um vetor de TGene
@@ -230,7 +234,6 @@ void TIndividuo::troca_indice(int index1, int index2)
    if((ind_prox(index1))!=index2)
       VP_dist -= VP_Mapa->get_distancia(VP_indice[ind_ant(index2)]->ori, VP_indice[index2]->dest);
 
-
    tempG = VP_indice[index1];
    VP_indice[index1] = VP_indice[index2];
    VP_indice[index2] = tempG;
@@ -258,7 +261,8 @@ void TIndividuo::troca_indice(int index1, int index2)
    //Seria contado duas vezes
    if((ind_prox(index1))!=index2)
       VP_dist += VP_Mapa->get_distancia(VP_indice[ind_ant(index2)]->ori, VP_indice[index2]->dest);
-
+		
+   VP_distInv = 1/VP_dist;
 }
 
 /*
@@ -356,10 +360,12 @@ void TIndividuo::embaralha (int index1, int index2)
 
 void TIndividuo::recalcDist ()
 {
-   VP_dist = 0;
+	VP_dist = 0;
 
-    for (int i = 0; i<VP_qtdeGenes; i++)
-       VP_dist += VP_Mapa->get_distancia(VP_indice[ind_ant(i)]->ori, VP_indice[i]->dest);
+	for (int i = 0; i<VP_qtdeGenes; i++)
+      VP_dist += VP_Mapa->get_distancia(VP_indice[ind_ant(i)]->ori, VP_indice[i]->dest);
+	
+	VP_distInv = 1/VP_dist;
 }
 
 double TIndividuo::get_dist_sub_reverso(TGene *G1, TGene *G2)

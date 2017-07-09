@@ -14,6 +14,7 @@
 #define	_CRUZAMENTO_H
 
 #include <set>
+#include "selecao.hpp"
 #include "individuo.hpp"
 #include "populacao.hpp"
 #include "utils.hpp"

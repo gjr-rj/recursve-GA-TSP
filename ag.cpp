@@ -30,7 +30,7 @@ void TAlgGenetico::setProfundidadeMaxima(int val)       { VP_profundidadeMaxima 
 void TAlgGenetico::setMutacao (int val)                 { VP_mutacao                 = val; }
 void TAlgGenetico::setCruzamento (int val)              { VP_cruzamento              = val; }
 void TAlgGenetico::setPercentElitismo (int val)         { VP_percentElitismo         = val; }
-void TAlgGenetico::setRoleta (int val)                  { VP_roleta                  = val; }
+void TAlgGenetico::setSelecao (int val)                 { VP_selecao                 = val; }
 void TAlgGenetico::setSelIndMutacao (int val)           { VP_selIndMutacao           = val; }
 void TAlgGenetico::setPercentReducao (int val)          { VP_percentReducao          = val; }
 void TAlgGenetico::setPercentMutacaoRecursiva (int val) { VP_percentMutacaoRecursiva = val; }
@@ -46,8 +46,12 @@ int TAlgGenetico::getProfundidadeMaxima()       { return VP_profundidadeMaxima; 
 int TAlgGenetico::getMutacao ()                 { return VP_mutacao; }
 int TAlgGenetico::getCruzamento ()              { return VP_cruzamento; }
 int TAlgGenetico::getPercentElitismo ()         { return VP_percentElitismo; }
-int TAlgGenetico::getRoleta ()                  { return VP_roleta; }
+int TAlgGenetico::getSelecao ()                 { return VP_selecao; }
 int TAlgGenetico::getSelIndMutacao ()           { return VP_selIndMutacao; }
+
+unsigned TAlgGenetico::getEntradaRec() { return VP_Entr_Rec; }
+unsigned TAlgGenetico::getExecRec()    { return VP_Exec_Rec; }
+unsigned TAlgGenetico::getCombinaRec() { return VP_Comb_Rec; }
 
 
 //Métodos
@@ -59,6 +63,9 @@ TAlgGenetico::TAlgGenetico (TMapaGenes *mapa, TArqLog *arqSaida)
    VP_Mapa = mapa;
    VP_ArqSaida = arqSaida;
    VP_profundidade = 0;
+	VP_Entr_Rec 	 = 0;
+	VP_Exec_Rec     = 0;
+	VP_Comb_Rec     = 0;
 }
 
 TAlgGenetico::TAlgGenetico (TMapaGenes *mapa, TArqLog *arqSaida, int profundidade)
@@ -66,6 +73,9 @@ TAlgGenetico::TAlgGenetico (TMapaGenes *mapa, TArqLog *arqSaida, int profundidad
    VP_Mapa = mapa;
    VP_ArqSaida = arqSaida;
    VP_profundidade = profundidade;
+	VP_Entr_Rec     = 0;
+	VP_Exec_Rec     = 0;
+	VP_Comb_Rec     = 0;
 }
 
 TAlgGenetico::~TAlgGenetico ()
@@ -130,17 +140,19 @@ void TAlgGenetico::exec()
    TPopulacao *populacao = new TPopulacao (getTamPopulacao(), getMapa(), getArqLog());
    populacao->povoa();
 /*
+//Descomente para teste de cruzamento
 TIndividuo *i1 = populacao->get_individuo(0);
 TIndividuo *i2 = populacao->get_individuo(1);
 
-cout << i1->toString()<<endl;
-cout << i2->toString()<<endl;
+cout << i1->toString()<< " : " << i1->get_distancia() << endl;
+cout << i2->toString()<< " : " << i2->get_distancia() << endl;
    vector <TIndividuo *> v = cruzamento->processa(i1, i2, populacao, getMaxGeracao(), 1);
-cout << v[0]->toString()<<endl;
+cout << v[0]->toString()<< " : " << v[0]->get_distancia() << endl;
 //cout << v[1]->toString()<<endl;
 	
 return;
 */
+
    populacao->ordena();
    time(&sysTime1);
 
@@ -187,6 +199,14 @@ return;
    strFimExec += to_string(get_melhor_gera());
    VP_ArqSaida->addLinha(strFimExec);
    if (getPrintParcial()) cout << strFimExec << endl;
+
+   strFimExec = "Qtde de Entradas Recursivas;";
+   strFimExec += to_string(getEntradaRec());
+   strFimExec += "; Qtde Execuções Recursivas;";
+   strFimExec += to_string(getExecRec());
+   strFimExec += "; Qtde Execuções das Combinações;";
+   strFimExec += to_string(getCombinaRec());
+   VP_ArqSaida->addLinha(strFimExec);
 
    VP_ArqSaida->addLinha("");
    
@@ -260,10 +280,12 @@ void TAlgGenetico::geraDescendentes(TPopulacao *novaPop, TPopulacao *populacao, 
    TIndividuo *ind1;
    TIndividuo *ind2;
 
+   TSelecao *selecao = new TSelecao (VP_Mapa, VP_ArqSaida, VP_selecao);
+	
    while (novaPop->get_qtdeIndividuo()<novaPop->get_tamanho())
    {
-      i = sorteiaPais(populacao);
-      j = sorteiaPais(populacao, i);
+      i = selecao->processa(populacao);
+      j = selecao->processa(populacao, i);
 
       ind1 = populacao->get_individuo(i);
       ind2 = populacao->get_individuo(j);
@@ -279,6 +301,8 @@ void TAlgGenetico::geraDescendentes(TPopulacao *novaPop, TPopulacao *populacao, 
 		}
          
    }
+	
+	delete selecao;
 }
 
 void TAlgGenetico::fazMutacao(TPopulacao *populacao)
@@ -333,57 +357,10 @@ void TAlgGenetico::fazMutacao(TPopulacao *populacao)
 	
 }
 
-int TAlgGenetico::sorteiaPais(TPopulacao *populacao)
-{
-   return sorteiaPais (populacao, -1);
-}
-
-int TAlgGenetico::sorteiaPais(TPopulacao *populacao, int exceto)
-{
-   unsigned i;
-   int escolha;
-   int maximo = populacao->get_tamanho()-1;
-
-   //Variaveis para a busca binária
-   int ini, fim, meio;
-
-   if (getRoleta()) { maximo = populacao->get_soma_dist()-1; }
-
-   do
-   {
-      i = TUtils::rnd(0, maximo);
-      /**********************************************/
-      /**********************************************/
-      // O sorteio com peso não está legal, refazer
-      /**********************************************/
-      if (getRoleta())
-      {
-         //Busca binária
-         ini = 0; fim =populacao->get_tamanho()-1;
-         meio = ini + ((fim-ini)/2);
-         do
-         {
-            if (i<(populacao->get_individuo(meio))->get_distancia()) fim = meio;
-            else ini = meio+1;
-
-            meio = ini + ((fim-ini)/2);
-
-         }while((meio>ini)||(meio<fim));
-         escolha = meio;
-      }
-      /**********************************************/
-      /**********************************************/
-
-      else
-         escolha = i;
-
-   }while (escolha==exceto);
-
-   return escolha;
-}
-
 void TAlgGenetico::mutacaoAGRecursivo(TPopulacao *populacao, int indice)
 {
+	VP_Entr_Rec++;
+
    //Tranosformará as sequências, do indivíduo, que coincidem com o melhor em um gene
    TTabConversao *tabConversao;
 
@@ -407,6 +384,8 @@ void TAlgGenetico::mutacaoAGRecursivo(TPopulacao *populacao, int indice)
    //Obs.: o fatorial deve ser > 0, pois provavelmente irá estourar o long
    if ((fatorial>0)&&(esforco>=fatorial))
    {
+   	VP_Comb_Rec++;
+		
       //Quando o esforço é maior que as combinações
       //O melhor indivuo por combinação
 		manipulado->melhorPossivel();
@@ -448,6 +427,7 @@ void TAlgGenetico::mutacaoAGRecursivo(TPopulacao *populacao, int indice)
       return;
    }
    
+	VP_Exec_Rec++;
    //Executando o AG recursivamente
    TAlgGenetico *ag = new TAlgGenetico(getMapa(), getArqLog(), get_profundidade()+1);
    ag->setMutacao(getMutacao());
@@ -458,12 +438,16 @@ void TAlgGenetico::mutacaoAGRecursivo(TPopulacao *populacao, int indice)
    ag->setPercentElitismo(getPercentElitismo());
    ag->setPercentMutacao(getPercentMutacao());
    ag->setProfundidadeMaxima(getProfundidadeMaxima());
-   ag->setRoleta(getRoleta());
+   ag->setSelecao(getSelecao());
    ag->setSelIndMutacao(getSelIndMutacao());
    ag->setPercentMutacaoRecursiva(getPercentMutacaoRecursiva());
    ag->setPercentReducao(getPercentReducao());
    ag->setTime(sysTime1);
    ag->exec(manipulado, tabConversao, melhor->get_extra());
+
+   VP_Entr_Rec += ag->getEntradaRec();
+	VP_Exec_Rec += ag->getExecRec();
+	VP_Comb_Rec += ag->getCombinaRec();
 
    if (manipulado->get_distancia()<melhor->get_distancia())
    {

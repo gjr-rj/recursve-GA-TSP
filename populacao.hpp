@@ -25,6 +25,7 @@ class TPopulacao
       vector <TIndividuo *> VP_individuos;
 
       double VP_somaDistancias;
+		double VP_somaDistanciasInv; // 1/VP_somaDistancias
       unsigned VP_tamanho;
 
       TMapaGenes *VP_Mapa;
@@ -37,6 +38,7 @@ class TPopulacao
       unsigned get_tamanho();
       unsigned get_qtdeIndividuo();
       double get_soma_dist ();
+		double get_soma_distInv ();
       void sub_dist_tot (double val);
       void soma_dist_tot (double val);
 

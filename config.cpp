@@ -37,9 +37,9 @@ void TConfig::leInfo(xmlDocPtr doc, xmlNode * a_node)
          else if (!xmlStrcmp(cur_node->name, (xmlChar *)"cruzamento")) cruzamento = val;
          else if (!xmlStrcmp(cur_node->name, (xmlChar *)"percentMutacaoRecursiva")) percentMutacaoRecursiva = val;
          else if (!xmlStrcmp(cur_node->name, (xmlChar *)"percentElitismo")) percentElitismo = val;
-         else if (!xmlStrcmp(cur_node->name, (xmlChar *)"roleta")) roleta = val;
+         else if (!xmlStrcmp(cur_node->name, (xmlChar *)"selecao")) selecao = val;
          else if (!xmlStrcmp(cur_node->name, (xmlChar *)"selIndMutacao")) selIndMutacao = val;
-		 else if (!xmlStrcmp(cur_node->name, (xmlChar *)"profundidadeMaxima")) profundidadeMaxima = val;
+		   else if (!xmlStrcmp(cur_node->name, (xmlChar *)"profundidadeMaxima")) profundidadeMaxima = val;
 
       }
 
@@ -63,6 +63,7 @@ TConfig::TConfig()
    percentReducao = 75;
    percentElitismo = 70;
    profundidadeMaxima = 5;
+	selecao = 0;
 }
 
 void TConfig::carregaDoArquivo(char *nomeArquivo)

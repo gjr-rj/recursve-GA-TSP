@@ -44,7 +44,7 @@ class TConfig
       int percentMutacaoRecursiva; //percentual de recursividade
       int percentReducao;          //percentual de redução do gene a cada recursvidade
       int percentElitismo;         //Percentual de elitismo
-      int roleta;                  //Se ativa ou não o sorteio do cruzamento de formatendencosa
+      int selecao;                 //seleção base a ser usada
       int selIndMutacao;           //Seleção do individuos para mutacçao
                                    //  0 - o melhor individuo nunca é selecionado
                                    //  1 - o melhor individuo sempre é seleconado
@@ -55,7 +55,6 @@ class TConfig
       ********************************************************/
       TConfig();
       void carregaDoArquivo(char *nomeArquivo);
-
 };
 
 #endif
