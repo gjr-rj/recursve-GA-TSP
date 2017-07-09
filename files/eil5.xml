@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<travellingSalesmanProblemInstance>
+
+  <name>eil5</name>
+
+  <source>TSPLIB</source>
+
+  <description>5-city problem (Christofides/Eilon)</description>
+
+  <doublePrecision>15</doublePrecision>
+
+  <ignoredDigits>5</ignoredDigits>
+
+  <graph>
+    <vertex>
+      <edge cost="1.236931687685298e+01">1</edge>
+      <edge cost="1.920937271229855e+01">2</edge>
+      <edge cost="3.106444913401813e+01">3</edge>
+      <edge cost="2.220360331117452e+01">4</edge>
+    </vertex>
+    <vertex>
+      <edge cost="1.236931687685298e+01">0</edge>
+      <edge cost="1.529705854077836e+01">2</edge>
+      <edge cost="3.701351104664349e+01">3</edge>
+      <edge cost="2.102379604162864e+01">4</edge>
+    </vertex>
+    <vertex>
+      <edge cost="1.920937271229855e+01">0</edge>
+      <edge cost="1.529705854077836e+01">1</edge>
+      <edge cost="4.967896939349689e+01">3</edge>
+      <edge cost="3.605551275463989e+01">4</edge>
+    </vertex>
+    <vertex>
+      <edge cost="3.106444913401813e+01">0</edge>
+      <edge cost="3.701351104664349e+01">1</edge>
+      <edge cost="4.967896939349689e+01">2</edge>
+      <edge cost="2.039607805437114e+01">4</edge>
+    </vertex>
+    <vertex>
+      <edge cost="2.220360331117452e+01">0</edge>
+      <edge cost="2.102379604162864e+01">1</edge>
+      <edge cost="3.605551275463989e+01">2</edge>
+      <edge cost="2.039607805437114e+01">3</edge>
+    </vertex>
+  </graph>
+
+</travellingSalesmanProblemInstance>

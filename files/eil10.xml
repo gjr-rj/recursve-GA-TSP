@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<travellingSalesmanProblemInstance>
+
+  <name>eil10</name>
+
+  <source>TSPLIB</source>
+
+  <description>10-city problem (Christofides/Eilon)</description>
+
+  <doublePrecision>15</doublePrecision>
+
+  <ignoredDigits>5</ignoredDigits>
+
+  <graph>
+    <vertex>
+      <edge cost="3.255764119219941e+01">1</edge>
+      <edge cost="1.456021977856104e+01">2</edge>
+      <edge cost="3.220248437620923e+01">3</edge>
+      <edge cost="3.220248437620923e+01">4</edge>
+      <edge cost="2.483948469674844e+01">5</edge>
+      <edge cost="2.102379604162864e+01">6</edge>
+      <edge cost="3.157530680769389e+01">7</edge>
+      <edge cost="1.780449381476486e+01">8</edge>
+      <edge cost="1.555634918610405e+01">9</edge>
+    </vertex>
+    <vertex>
+      <edge cost="3.255764119219941e+01">0</edge>
+      <edge cost="3.440930106817051e+01">2</edge>
+      <edge cost="2.022374841615668e+01">3</edge>
+      <edge cost="2.385372088375313e+01">4</edge>
+      <edge cost="1.640121946685673e+01">5</edge>
+      <edge cost="3.624913792078372e+01">6</edge>
+      <edge cost="3.606937759374286e+01">7</edge>
+      <edge cost="4.742362280551750e+01">8</edge>
+      <edge cost="4.328972164382672e+01">9</edge>
+    </vertex>
+    <vertex>
+      <edge cost="1.456021977856104e+01">0</edge>
+      <edge cost="3.440930106817051e+01">1</edge>
+      <edge cost="2.500000000000000e+01">3</edge>
+      <edge cost="4.272001872658765e+01">4</edge>
+      <edge cost="3.354101966249684e+01">5</edge>
+      <edge cost="3.535533905932738e+01">6</edge>
+      <edge cost="4.504442251822083e+01">7</edge>
+      <edge cost="1.500000000000000e+01">8</edge>
+      <edge cost="2.915475947422650e+01">9</edge>
+    </vertex>
+    <vertex>
+      <edge cost="3.220248437620923e+01">0</edge>
+      <edge cost="2.022374841615668e+01">1</edge>
+      <edge cost="2.500000000000000e+01">2</edge>
+      <edge cost="4.123105625617661e+01">4</edge>
+      <edge cost="3.162277660168379e+01">5</edge>
+      <edge cost="4.609772228646444e+01">6</edge>
+      <edge cost="5.053711507397311e+01">7</edge>
+      <edge cost="4.000000000000000e+01">8</edge>
+      <edge cost="4.716990566028302e+01">9</edge>
+    </vertex>
+    <vertex>
+      <edge cost="3.220248437620923e+01">0</edge>
+      <edge cost="2.385372088375313e+01">1</edge>
+      <edge cost="4.272001872658765e+01">2</edge>
+      <edge cost="4.123105625617661e+01">3</edge>
+      <edge cost="1.000000000000000e+01">5</edge>
+      <edge cost="2.061552812808830e+01">6</edge>
+      <edge cost="1.392838827718412e+01">7</edge>
+      <edge cost="5.000000000000000e+01">8</edge>
+      <edge cost="3.354101966249684e+01">9</edge>
+    </vertex>
+    <vertex>
+      <edge cost="2.483948469674844e+01">0</edge>
+      <edge cost="1.640121946685673e+01">1</edge>
+      <edge cost="3.354101966249684e+01">2</edge>
+      <edge cost="3.162277660168379e+01">3</edge>
+      <edge cost="1.000000000000000e+01">4</edge>
+      <edge cost="2.061552812808830e+01">6</edge>
+      <edge cost="1.984943324127921e+01">7</edge>
+      <edge cost="4.242640687119285e+01">8</edge>
+      <edge cost="3.041381265149110e+01">9</edge>
+    </vertex>
+    <vertex>
+      <edge cost="2.102379604162864e+01">0</edge>
+      <edge cost="3.624913792078372e+01">1</edge>
+      <edge cost="3.535533905932738e+01">2</edge>
+      <edge cost="4.609772228646444e+01">3</edge>
+      <edge cost="2.061552812808830e+01">4</edge>
+      <edge cost="2.061552812808830e+01">5</edge>
+      <edge cost="1.220655561573370e+01">7</edge>
+      <edge cost="3.640054944640259e+01">8</edge>
+      <edge cost="1.414213562373095e+01">9</edge>
+    </vertex>
+    <vertex>
+      <edge cost="3.157530680769389e+01">0</edge>
+      <edge cost="3.606937759374286e+01">1</edge>
+      <edge cost="4.504442251822083e+01">2</edge>
+      <edge cost="5.053711507397311e+01">3</edge>
+      <edge cost="1.392838827718412e+01">4</edge>
+      <edge cost="1.984943324127921e+01">5</edge>
+      <edge cost="1.220655561573370e+01">6</edge>
+      <edge cost="4.810405388322278e+01">8</edge>
+      <edge cost="2.624880949681338e+01">9</edge>
+    </vertex>
+    <vertex>
+      <edge cost="1.780449381476486e+01">0</edge>
+      <edge cost="4.742362280551750e+01">1</edge>
+      <edge cost="1.500000000000000e+01">2</edge>
+      <edge cost="4.000000000000000e+01">3</edge>
+      <edge cost="5.000000000000000e+01">4</edge>
+      <edge cost="4.242640687119285e+01">5</edge>
+      <edge cost="3.640054944640259e+01">6</edge>
+      <edge cost="4.810405388322278e+01">7</edge>
+      <edge cost="2.500000000000000e+01">9</edge>
+    </vertex>
+    <vertex>
+      <edge cost="1.555634918610405e+01">0</edge>
+      <edge cost="4.328972164382672e+01">1</edge>
+      <edge cost="2.915475947422650e+01">2</edge>
+      <edge cost="4.716990566028302e+01">3</edge>
+      <edge cost="3.354101966249684e+01">4</edge>
+      <edge cost="3.041381265149110e+01">5</edge>
+      <edge cost="1.414213562373095e+01">6</edge>
+      <edge cost="2.624880949681338e+01">7</edge>
+      <edge cost="2.500000000000000e+01">8</edge>
+    </vertex>
+    <vertex>
+      <edge cost="2.640075756488817e+01">0</edge>
+      <edge cost="5.028916384272063e+01">1</edge>
+      <edge cost="4.031128874149275e+01">2</edge>
+      <edge cost="5.700877125495690e+01">3</edge>
+      <edge cost="3.535533905932738e+01">4</edge>
+      <edge cost="3.535533905932738e+01">5</edge>
+      <edge cost="1.500000000000000e+01">6</edge>
+      <edge cost="2.416609194718914e+01">7</edge>
+      <edge cost="3.535533905932738e+01">8</edge>
+      <edge cost="1.118033988749895e+01">9</edge>
+    </vertex>
+  </graph>
+
+</travellingSalesmanProblemInstance>
