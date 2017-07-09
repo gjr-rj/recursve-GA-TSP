@@ -43,7 +43,7 @@ exemplo de arquivos a serem criados são:
 * **numGeracoes** - número de gerações;
 * **percentMutacao** - perentual de mutação;
 * **mutacao**
-  - 0 Exchange mutation (EM)
+  - 0 Exchange mutation (EM),
   - 1 2-opt,
   - 2 2-opt (2),
   - 3 Fast 3-opt,
@@ -82,10 +82,12 @@ exemplo de arquivos a serem criados são:
   - 12 Modified Inver-over operator (MIO),
   - 13 Voting Recombination Crossover (VR),
   - 14 Edge Recombination Crossover (ER);
-* **numExec** - quantidade de execuções (repetições)
-* **roleta**
-  - 0 desativa roleta,
-  - 1 ativa roleta;
+* **numExec** - quantidade de execuções (repetições);
+* **selecao**
+  - 0 sorteio aleatório,
+  - 1 torneo K (se não for setado, k padrão = 5),
+  - 2 roleta (prioriza os maiores valores),
+  - 3 roleta inversa (priorza os menores valores);
 * **percentElitismo** - percentual de elitismo;
 * **percentMutacaoRecursiva** - percentual de mutação recursiva;
 * **percentReducao** - percentual de redução, na mutação recursiva;
@@ -114,7 +116,7 @@ exemplo de arquivos a serem criados são:
   <selIndMutacao>0</selIndMutacao>
   <cruzamento>12</cruzamento>
   <numExec>1</numExec>
-  <roleta>0</roleta>
+  <selecao>0</selecao>
   <percentElitismo>70</percentElitismo>
   <percentMutacaoRecursiva>20</percentMutacaoRecursiva>
   <profundidadeMaxima>10</profundidadeMaxima>
